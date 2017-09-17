@@ -1,0 +1,141 @@
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 45px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.globalnavbar{
+    background-color:white;
+    text-transform:uppercase;
+    position: relative;
+    width: auto;
+    height: 45px;
+    box-shadow: 0px 0px 1px 1px grey;
+    text-align: center;
+    overflow: hidden; 
+    min-width: 610px;
+}
+.navbar{
+    max-width: 1190px;
+    min-width: 0px;
+    margin: 0 auto;
+    position: relative;
+    height: 45px;
+}
+.homearea{
+    position: relative;
+    width: 100%;
+    min-width: 0px;
+}
+.home{
+    font-weight: bold;
+    color:aquamarine;
+    margin-top: 5px;
+}
+
+.home a{
+    font-family: 'Kanit',sans-serif;
+    text-decoration: none;
+    color: aquamarine;
+    border-radius: 5px;
+    border:1px solid aquamarine;
+    padding: 5px;
+    display: inline-block;
+}
+
+.menu{
+    position: absolute;
+    float: left;
+    top: 5px;
+    margin-left: -10px;
+}
+.menubutton{
+
+}
+
+.index{
+    
+}
+.index a{
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Kanit',sans-serif;
+    color: grey;
+}
+.index a:hover{
+    color: cadetblue;
+    animation: ease;
+}
+.toggle-nav {
+    float: left;
+    color: aquamarine;
+    font-size: 2em;
+    visibility: hidden;
+    position: fixed;
+    margin-left: 1em;
+    text-decoration: none;
+    z-index: 10000;
+}
+.toggle-nav:hover{
+    color:cadetblue;
+}
+.menu2{
+    font-family:'kanit','sans-serif';
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    top:-0.1em;
+}
+.menu2 li{
+    display: block;
+    text-align: left;
+    margin:5em;
+    margin-top: 5em;
+    margin-left:70px;
+}
+.menu2 a{
+    text-decoration: none;
+    font-size: 3em;
+    color: cadetblue;
+}
+@media screen and (min-width:580px){
+    .menu2{
+        visibility: collapse;
+    }
+}
+@media screen and (max-width: 580px){
+    .menu {
+        visibility: hidden;
+        width: 100%;
+    }
+    
+    .globalnavbar {
+        min-width: 0%;
+        width: 100%;
+    }
+    .toggle-nav{
+        visibility: visible;
+    }
+    .panel {
+        height: 100%;
+        text-align: center;
+        font-size:2.5em;
+        left: -10px;
+    }
+    .wordindex {
+        margin: 0.2em;
+    }
+    
+}

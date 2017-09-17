@@ -1,0 +1,93 @@
+*{
+    font-family: 'Questrial',sans-serif;
+}
+
+.wlist h1 {
+    padding: 10px;
+    margin: 50px;
+    font-size: 50px;
+    border: 1px solid cadetblue;
+    border-radius: 60px;
+    width: 50px;
+    text-align: center;
+}
+.alph{
+    display: inline-block;
+    margin: 45px;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid aquamarine;
+}
+th{
+    text-transform: uppercase;
+}
+td{
+    min-width: 150px;
+    max-width: 150px;
+}
+table, th, td{
+    padding: 20px;
+    border: 1px solid aquamarine;
+}
+.list{
+    padding: 10px;
+    background-color: white;
+
+}
+.panel{
+    text-align: center;
+    min-width: 100px;
+    float: left;
+    width: 100%;
+    top:40px;
+    height: auto;
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 1px 0px;
+    z-index:100;
+}
+.wordindex a{
+    border: 1px solid cadetblue;
+    padding: 10px;
+    color: aquamarine;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.wordindex a:hover{
+    background-color: aquamarine;
+    color: white;
+    border: 1px solid aquamarine;
+    border-radius: 100px;
+}
+.wordindex li{
+    margin: 15px;
+}
+.showBut {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    color: white;
+}
+.showBut a{
+    color: cadetblue;
+    border: 1px solid cadetblue;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.showBut a:hover{
+    color: white;
+    background-color: cadetblue;
+    border:1px solid cadetblue;
+    border-radius: 5px;
+}
+@media screen and (max-width:580px){
+    table{
+      margin-left: -90px;
+      margin-right: -60px;
+    }
+}

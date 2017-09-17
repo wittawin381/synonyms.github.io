@@ -1,0 +1,30 @@
+.questionPic , .ansPic {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    position: relative;
+    display:block;
+}
+
+.ansBut{
+    top: -20px;
+    width: 0 auto;
+    left: 50%;
+    margin-left:-150px;
+    position: relative;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    display: inline-block;
+}
+.ansBut a{
+    font-family: 'Kanit','sans-serif';
+    font-size: 30px;
+    padding: 5px;
+    color:whitesmoke;
+    background:aquamarine;
+
+}
+.ansBut a:hover{
+    color: aquamarine;
+    background:white;
+}

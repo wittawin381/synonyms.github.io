@@ -1,0 +1,92 @@
+*{
+    left:0px;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color:cadetblue;
+    background-attachment: fixed;
+}
+
+
+
+.mainhead{
+    background:url("wallpaper.png") no-repeat bottom center;
+    background-attachment:fixed;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    font-family: 'Kanit',sans-serif;
+    font-size: 200%;
+    margin: 0px;
+
+}
+
+
+#synonym{
+    color: aquamarine;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    display:inline;
+    padding: 40px;
+    top: 250px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+
+}
+
+.content1{
+    text-align: center;
+    width:75%;
+    margin: 0 auto;
+    border:1px solid cadetblue;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 50px;
+    font-family: 'Kanit',sans-serif;
+    font-size: 125%;
+    color: cadetblue;
+    margin-bottom: 50px;
+}
+.content1 h1{
+    text-decoration: underline;
+}
+
+.menubar {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.menubar a{
+    display: inline-block;
+    color:cadetblue;
+    background:#FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Kanit',sans-serif;
+    border:1px solid cadetblue;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px 20px;
+}
+.menubar a:hover{
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    color: #FFF;
+    animation: ease;
+}
+
+.box1 {
+    position: static;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    border:solid aliceBlue;
+    width: 75%;
+    min-width: 350px;
+    margin: 0 auto;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-bottom: 50px;
+}

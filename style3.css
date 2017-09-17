@@ -1,0 +1,33 @@
+.head {
+    font-family: 'Kanit',sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+.page {
+    width: 75%;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+    position: static;
+    margin: 0 auto;
+    top: 50px;
+    left: 25px;
+    padding: 15px;
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.menu a{
+
+    text-decoration: none;
+    color: grey;
+
+}
+img {
+  max-width: 100%;
+  min-width: 100px;
+  position: relative;
+
+}
